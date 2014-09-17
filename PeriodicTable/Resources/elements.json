@@ -1,0 +1,4629 @@
+[
+  {
+    "Name": "Actinium",
+    "AtomicWeight": "227",
+    "AtomicNumber": "89",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3470"
+    },
+    "Symbol": "Ac",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "10.07"
+    },
+    "ElectronConfiguration": "[Rn] 6d1 7s2",
+    "Electronegativity": "1.1",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.88"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "22.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.12"
+    },
+    "IonizationPotential": "5.17",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "12"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      9,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "the Greek 'actinos', meaning a ray"
+  },
+  {
+    "Name": "Aluminum",
+    "AtomicWeight": "26.98154",
+    "AtomicNumber": "13",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2740"
+    },
+    "Symbol": "Al",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "2.7"
+    },
+    "ElectronConfiguration": "[Ne] 3s2 p1",
+    "Electronegativity": "1.61",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.43"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "10"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.9"
+    },
+    "IonizationPotential": "5.986",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "237"
+    },
+    "Electrons": [
+      2,
+      8,
+      3
+    ],
+    "Group": 13,
+    "Period": 3,
+    "NameOrigin": "the Latin name for alum, 'alumen' meaning bitter salt"
+  },
+  {
+    "Name": "Americium",
+    "AtomicWeight": "243",
+    "AtomicNumber": "95",
+    "OxidationStates": "6, 5, 4, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2880"
+    },
+    "Symbol": "Am",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "13.7"
+    },
+    "ElectronConfiguration": "[Rn] 5f7 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.84"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "20.8"
+    },
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      8,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Americas, the continent where the element was first synthesized"
+  },
+  {
+    "Name": "Antimony",
+    "AtomicWeight": "121.757",
+    "AtomicNumber": "51",
+    "OxidationStates": "+/-3, 5",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1860"
+    },
+    "Symbol": "Sb",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "6.69"
+    },
+    "ElectronConfiguration": "[Kr] 4d10 5s2 p3",
+    "Electronegativity": "2.05",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.59"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "18.4"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.207"
+    },
+    "IonizationPotential": "8.641",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "24.3"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      5
+    ],
+    "Group": 15,
+    "Period": 5,
+    "NameOrigin": "the Greek 'anti – monos', meaning not alone (stibium in Latin)"
+  },
+  {
+    "Name": "Argon",
+    "AtomicWeight": "39.948",
+    "AtomicNumber": "18",
+    "OxidationStates": null,
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "87.45"
+    },
+    "Symbol": "Ar",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.784"
+    },
+    "ElectronConfiguration": "[Ne] 3s2 p6",
+    "Electronegativity": "0",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "0.88"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "24.2"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.52"
+    },
+    "IonizationPotential": "15.759",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.0177"
+    },
+    "Electrons": [
+      2,
+      8,
+      8
+    ],
+    "Group": 18,
+    "Period": 3,
+    "NameOrigin": "the Greek, 'argos', meaning idle"
+  },
+  {
+    "Name": "Arsenic",
+    "AtomicWeight": "74.9216",
+    "AtomicNumber": "33",
+    "OxidationStates": "+/-3, 5",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "876"
+    },
+    "Symbol": "As",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "5.78"
+    },
+    "ElectronConfiguration": "[Ar] 3d10 4s2 p3",
+    "Electronegativity": "2.18",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.39"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "13.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.33"
+    },
+    "IonizationPotential": "9.81",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "50"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      5
+    ],
+    "Group": 15,
+    "Period": 4,
+    "NameOrigin": "the Greek name 'arsenikon' for the yellow pigment orpiment"
+  },
+  {
+    "Name": "Astatine",
+    "AtomicWeight": "210",
+    "AtomicNumber": "85",
+    "OxidationStates": "+/-1, 3, 5, 7",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "610"
+    },
+    "Symbol": "At",
+    "Density": null,
+    "ElectronConfiguration": "[Xe] 4f14 5d10 6s2 p5",
+    "Electronegativity": "2.2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.45"
+    },
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "1.7"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      7
+    ],
+    "Group": 17,
+    "Period": 6,
+    "NameOrigin": "the Greek 'astatos', meaning unstable"
+  },
+  {
+    "Name": "Gold",
+    "AtomicWeight": "196.9665",
+    "AtomicNumber": "79",
+    "OxidationStates": "3, 1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3130"
+    },
+    "Symbol": "Au",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "19.3"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d10 6s1",
+    "Electronegativity": "2.54",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.46"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "10.2"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.128"
+    },
+    "IonizationPotential": "9.225",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "317"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      1
+    ],
+    "Group": 11,
+    "Period": 6,
+    "NameOrigin": "the Anglo-Saxon word gold (aurum in Latin, meaning glow of sunrise)[2]"
+  },
+  {
+    "Name": "Boron",
+    "AtomicWeight": "10.811",
+    "AtomicNumber": "5",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4275"
+    },
+    "Symbol": "B",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "2.34"
+    },
+    "ElectronConfiguration": "1s2 2s2 p1",
+    "Electronegativity": "2.04",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "0.98"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "4.6"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "1.026"
+    },
+    "IonizationPotential": "8.298",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "27"
+    },
+    "Electrons": [
+      2,
+      3
+    ],
+    "Group": 13,
+    "Period": 2,
+    "NameOrigin": "the Arabic 'buraq', which was the name for borax"
+  },
+  {
+    "Name": "Barium",
+    "AtomicWeight": "137.33",
+    "AtomicNumber": "56",
+    "OxidationStates": "2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2078"
+    },
+    "Symbol": "Ba",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "3.59"
+    },
+    "ElectronConfiguration": "[Xe] 6s2",
+    "Electronegativity": "0.89",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "2.22"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "39"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.204"
+    },
+    "IonizationPotential": "5.212",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "18.4"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "Group": 2,
+    "Period": 6,
+    "NameOrigin": "the Greek 'barys', meaning heavy"
+  },
+  {
+    "Name": "Beryllium",
+    "AtomicWeight": "9.01218",
+    "AtomicNumber": "4",
+    "OxidationStates": "2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3243"
+    },
+    "Symbol": "Be",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.85"
+    },
+    "ElectronConfiguration": "1s2 2s2",
+    "Electronegativity": "1.57",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.12"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "1.825"
+    },
+    "IonizationPotential": "9.322",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "200"
+    },
+    "Electrons": [
+      2,
+      2
+    ],
+    "Group": 2,
+    "Period": 2,
+    "NameOrigin": "the Greek name for beryl, 'beryllo'"
+  },
+  {
+    "Name": "Bohrium",
+    "AtomicWeight": "262",
+    "AtomicNumber": "107",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Bh",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d5 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      13,
+      2
+    ],
+    "Group": 7,
+    "Period": 7,
+    "NameOrigin": "Niels Bohr, physicist"
+  },
+  {
+    "Name": "Bismuth",
+    "AtomicWeight": "208.9804",
+    "AtomicNumber": "83",
+    "OxidationStates": "3, 5",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1837"
+    },
+    "Symbol": "Bi",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "9.75"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d10 6s2 p3",
+    "Electronegativity": "2.02",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.7"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "21.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.122"
+    },
+    "IonizationPotential": "7.289",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "7.87"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      5
+    ],
+    "Group": 15,
+    "Period": 6,
+    "NameOrigin": "the German 'Bisemutum' a corruption of 'Weisse Masse' meaning white mass"
+  },
+  {
+    "Name": "Berkelium",
+    "AtomicWeight": "247",
+    "AtomicNumber": "97",
+    "OxidationStates": "4, 3",
+    "BoilingPoint": null,
+    "Symbol": "Bk",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f9 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6.23",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      27,
+      8,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Berkeley, California, USA, where the element was first synthesized"
+  },
+  {
+    "Name": "Bromine",
+    "AtomicWeight": "79.904",
+    "AtomicNumber": "35",
+    "OxidationStates": "+/-1, 5",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "331.85"
+    },
+    "Symbol": "Br",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "3.12"
+    },
+    "ElectronConfiguration": "[Ar] 3d10 4s2 p5",
+    "Electronegativity": "2.96",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.12"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "23.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.226"
+    },
+    "IonizationPotential": "11.814",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.122"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      7
+    ],
+    "Group": 17,
+    "Period": 4,
+    "NameOrigin": "the Greek 'bromos' meaning stench"
+  },
+  {
+    "Name": "Carbon",
+    "AtomicWeight": "12.011",
+    "AtomicNumber": "6",
+    "OxidationStates": "+/-4, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "5100"
+    },
+    "Symbol": "C",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "2.26"
+    },
+    "ElectronConfiguration": "1s2 2s2 p2",
+    "Electronegativity": "2.55",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "0.91"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "5.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.709"
+    },
+    "IonizationPotential": "11.26",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "155"
+    },
+    "Electrons": [
+      2,
+      4
+    ],
+    "Group": 14,
+    "Period": 2,
+    "NameOrigin": "the Latin 'carbo', meaning charcoal"
+  },
+  {
+    "Name": "Calcium",
+    "AtomicWeight": "40.078",
+    "AtomicNumber": "20",
+    "OxidationStates": "2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1757"
+    },
+    "Symbol": "Ca",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.55"
+    },
+    "ElectronConfiguration": "[Ar] 4s2",
+    "Electronegativity": "1",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.97"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "29.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.647"
+    },
+    "IonizationPotential": "6.113",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "200"
+    },
+    "Electrons": [
+      2,
+      8,
+      8,
+      2
+    ],
+    "Group": 2,
+    "Period": 4,
+    "NameOrigin": "the Latin 'calx' meaning lime"
+  },
+  {
+    "Name": "Cadmium",
+    "AtomicWeight": "112.41",
+    "AtomicNumber": "48",
+    "OxidationStates": "2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1040"
+    },
+    "Symbol": "Cd",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "8.65"
+    },
+    "ElectronConfiguration": "[Kr] 4d10 5s2",
+    "Electronegativity": "1.69",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.71"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "13.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.233"
+    },
+    "IonizationPotential": "8.993",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "96.8"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      2
+    ],
+    "Group": 12,
+    "Period": 5,
+    "NameOrigin": "the Latin name for the mineral calmine, 'cadmia'"
+  },
+  {
+    "Name": "Cerium",
+    "AtomicWeight": "140.12",
+    "AtomicNumber": "58",
+    "OxidationStates": "3, 4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3715"
+    },
+    "Symbol": "Ce",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "6.77"
+    },
+    "ElectronConfiguration": "[Xe] 4f1 5d1 6s2",
+    "Electronegativity": "1.12",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.81"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "21"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.19"
+    },
+    "IonizationPotential": "5.47",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "11.4"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      19,
+      9,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Ceres, the Roman God of agriculture"
+  },
+  {
+    "Name": "Californium",
+    "AtomicWeight": "251",
+    "AtomicNumber": "98",
+    "OxidationStates": "3",
+    "BoilingPoint": null,
+    "Symbol": "Cf",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f10 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6.3",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      28,
+      8,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "State of California, USA, where the element was first synthesized"
+  },
+  {
+    "Name": "Chlorine",
+    "AtomicWeight": "35.4527",
+    "AtomicNumber": "17",
+    "OxidationStates": "+/-1, 3, 5, 7",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "239.18"
+    },
+    "Symbol": "Cl",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "3.214"
+    },
+    "ElectronConfiguration": "[Ne] 3s2 p5",
+    "Electronegativity": "3.16",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "0.97"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "18.7"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.48"
+    },
+    "IonizationPotential": "12.967",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.0089"
+    },
+    "Electrons": [
+      2,
+      8,
+      7
+    ],
+    "Group": 17,
+    "Period": 3,
+    "NameOrigin": "the Greek 'chloros', meaning greenish yellow"
+  },
+  {
+    "Name": "Curium",
+    "AtomicWeight": "247",
+    "AtomicNumber": "96",
+    "OxidationStates": "3",
+    "BoilingPoint": null,
+    "Symbol": "Cm",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "13.5"
+    },
+    "ElectronConfiguration": "[Rn] 5f7 6d1 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": null,
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "18.3"
+    },
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6.02",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      9,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Pierre Curie, a physicist, and Marie Curie, a physicist and chemist"
+  },
+  {
+    "Name": "Cobalt",
+    "AtomicWeight": "58.9332",
+    "AtomicNumber": "27",
+    "OxidationStates": "2, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3143"
+    },
+    "Symbol": "Co",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "8.9"
+    },
+    "ElectronConfiguration": "[Ar] 3d7 4s2",
+    "Electronegativity": "1.88",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.25"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "6.7"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.421"
+    },
+    "IonizationPotential": "7.86",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "100"
+    },
+    "Electrons": [
+      2,
+      8,
+      15,
+      2
+    ],
+    "Group": 9,
+    "Period": 4,
+    "NameOrigin": "the German word 'kobald', meaning goblin"
+  },
+  {
+    "Name": "Chromium",
+    "AtomicWeight": "51.996",
+    "AtomicNumber": "24",
+    "OxidationStates": "6, 3, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2945"
+    },
+    "Symbol": "Cr",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.19"
+    },
+    "ElectronConfiguration": "[Ar] 3d5 4s1",
+    "Electronegativity": "1.66",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.3"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "7.23"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.449"
+    },
+    "IonizationPotential": "6.766",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "93.7"
+    },
+    "Electrons": [
+      2,
+      8,
+      13,
+      1
+    ],
+    "Group": 6,
+    "Period": 4,
+    "NameOrigin": "the Greek 'chroma', meaning colour"
+  },
+  {
+    "Name": "Cesium",
+    "AtomicWeight": "132.9054",
+    "AtomicNumber": "55",
+    "OxidationStates": "1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "944"
+    },
+    "Symbol": "Cs",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.87"
+    },
+    "ElectronConfiguration": "[Xe] 6s1",
+    "Electronegativity": "0.79",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "2.67"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "70"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.24"
+    },
+    "IonizationPotential": "3.894",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "35.9"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
+    ],
+    "Group": 1,
+    "Period": 6,
+    "NameOrigin": "the Latin 'caesius', meaning sky blue"
+  },
+  {
+    "Name": "Copper",
+    "AtomicWeight": "63.546",
+    "AtomicNumber": "29",
+    "OxidationStates": "2, 1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2840"
+    },
+    "Symbol": "Cu",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "8.96"
+    },
+    "ElectronConfiguration": "[Ar] 3d10 4s1",
+    "Electronegativity": "1.9",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.28"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "7.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.385"
+    },
+    "IonizationPotential": "7.726",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "401"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      1
+    ],
+    "Group": 11,
+    "Period": 4,
+    "NameOrigin": "the Old English name coper in turn derived from the Latin 'Cyprium aes', meaning a metal from Cyprus"
+  },
+  {
+    "Name": "Dubnium",
+    "AtomicWeight": "262",
+    "AtomicNumber": "105",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Db",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d3 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      11,
+      2
+    ],
+    "Group": 5,
+    "Period": 7,
+    "NameOrigin": "Dubna, Russia"
+  },
+  {
+    "Name": "Dysprosium",
+    "AtomicWeight": "162.5",
+    "AtomicNumber": "66",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2840"
+    },
+    "Symbol": "Dy",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "8.55"
+    },
+    "ElectronConfiguration": "[Xe] 4f10 6s2",
+    "Electronegativity": "1.22",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.8"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "19"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.173"
+    },
+    "IonizationPotential": "5.93",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10.7"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      28,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "the Greek 'dysprositos', meaning hard to get"
+  },
+  {
+    "Name": "Erbium",
+    "AtomicWeight": "167.26",
+    "AtomicNumber": "68",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3140"
+    },
+    "Symbol": "Er",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "9.07"
+    },
+    "ElectronConfiguration": "[Xe] 4f12 6s2",
+    "Electronegativity": "1.24",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.78"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "18.4"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.168"
+    },
+    "IonizationPotential": "6.101",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "14.3"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      30,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Ytterby, Sweden"
+  },
+  {
+    "Name": "Einsteinium",
+    "AtomicWeight": "252",
+    "AtomicNumber": "99",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Es",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f11 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6.42",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      29,
+      8,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Albert Einstein, physicist"
+  },
+  {
+    "Name": "Europium",
+    "AtomicWeight": "151.965",
+    "AtomicNumber": "63",
+    "OxidationStates": "3, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1800"
+    },
+    "Symbol": "Eu",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "5.24"
+    },
+    "ElectronConfiguration": "[Xe] 4f7 6s2",
+    "Electronegativity": "1.2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.99"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "28.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.182"
+    },
+    "IonizationPotential": "5.67",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "13.9"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      25,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Europe"
+  },
+  {
+    "Name": "Fluorine",
+    "AtomicWeight": "18.9984",
+    "AtomicNumber": "9",
+    "OxidationStates": "-1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "85"
+    },
+    "Symbol": "F",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.696"
+    },
+    "ElectronConfiguration": "1s2 2s2 p5",
+    "Electronegativity": "3.98",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "0.57"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "17.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.824"
+    },
+    "IonizationPotential": "17.422",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.0279"
+    },
+    "Electrons": [
+      2,
+      7
+    ],
+    "Group": 17,
+    "Period": 2,
+    "NameOrigin": "the Latin 'fluere', meaning to flow"
+  },
+  {
+    "Name": "Iron",
+    "AtomicWeight": "55.847",
+    "AtomicNumber": "26",
+    "OxidationStates": "2, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3023"
+    },
+    "Symbol": "Fe",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.874"
+    },
+    "ElectronConfiguration": "[Ar] 3d6 4s2",
+    "Electronegativity": "1.83",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.26"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "7.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.449"
+    },
+    "IonizationPotential": "7.87",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "80.2"
+    },
+    "Electrons": [
+      2,
+      8,
+      14,
+      2
+    ],
+    "Group": 8,
+    "Period": 4,
+    "NameOrigin": "the Anglo-Saxon name iren (ferrum in Latin)"
+  },
+  {
+    "Name": "Fermium",
+    "AtomicWeight": "257",
+    "AtomicNumber": "100",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Fm",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f12 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6.5",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      30,
+      8,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Enrico Fermi, physicist"
+  },
+  {
+    "Name": "Francium",
+    "AtomicWeight": "223",
+    "AtomicNumber": "87",
+    "OxidationStates": "1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "950"
+    },
+    "Symbol": "Fr",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 7s1",
+    "Electronegativity": "0.7",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "2.7"
+    },
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "0",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "15"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      1
+    ],
+    "Group": 1,
+    "Period": 7,
+    "NameOrigin": "France, where it was first discovered"
+  },
+  {
+    "Name": "Gallium",
+    "AtomicWeight": "69.723",
+    "AtomicNumber": "31",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2478"
+    },
+    "Symbol": "Ga",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "5.91"
+    },
+    "ElectronConfiguration": "[Ar] 3d10 4s2 p1",
+    "Electronegativity": "1.81",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.41"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "11.8"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.371"
+    },
+    "IonizationPotential": "5.999",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "40.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      3
+    ],
+    "Group": 13,
+    "Period": 4,
+    "NameOrigin": "France (with the Latin name Gallia)"
+  },
+  {
+    "Name": "Gadolinium",
+    "AtomicWeight": "157.25",
+    "AtomicNumber": "64",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3545"
+    },
+    "Symbol": "Gd",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.9"
+    },
+    "ElectronConfiguration": "[Xe] 4f7 5d1 6s2",
+    "Electronegativity": "1.2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.8"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "19.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.236"
+    },
+    "IonizationPotential": "6.15",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      25,
+      9,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Johan Gadolin, chemist, physicist and mineralogist"
+  },
+  {
+    "Name": "Germanium",
+    "AtomicWeight": "72.61",
+    "AtomicNumber": "32",
+    "OxidationStates": "4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3107"
+    },
+    "Symbol": "Ge",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "5.32"
+    },
+    "ElectronConfiguration": "[Ar] 3d10 4s2 p2",
+    "Electronegativity": "2.01",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.37"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "13.6"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.32"
+    },
+    "IonizationPotential": "7.899",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "59.9"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      4
+    ],
+    "Group": 14,
+    "Period": 4,
+    "NameOrigin": "Germany (with the Latin name Germania)"
+  },
+  {
+    "Name": "Hydrogen",
+    "AtomicWeight": "1.00794",
+    "AtomicNumber": "1",
+    "OxidationStates": "1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "20.28"
+    },
+    "Symbol": "H",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "0.0899"
+    },
+    "ElectronConfiguration": "1s1",
+    "Electronegativity": "2.1",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "2.08"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "14.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "14.304"
+    },
+    "IonizationPotential": "13.598",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.1815"
+    },
+    "Electrons": [
+      1
+    ],
+    "Group": 1,
+    "Period": 1,
+    "NameOrigin": "the Greek 'hydro' and 'genes' meaning water-forming"
+  },
+  {
+    "Name": "Helium",
+    "AtomicWeight": "4.0026",
+    "AtomicNumber": "2",
+    "OxidationStates": null,
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4.216"
+    },
+    "Symbol": "He",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "0.1785"
+    },
+    "ElectronConfiguration": "1s2",
+    "Electronegativity": "0",
+    "AtomicRadius": null,
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "31.8"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "5.193"
+    },
+    "IonizationPotential": "24.587",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.152"
+    },
+    "Electrons": [
+      2
+    ],
+    "Group": 18,
+    "Period": 1,
+    "NameOrigin": "the Greek 'helios' meaning sun"
+  },
+  {
+    "Name": "Hafnium",
+    "AtomicWeight": "178.49",
+    "AtomicNumber": "72",
+    "OxidationStates": "4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4875"
+    },
+    "Symbol": "Hf",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "13.31"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d2 6s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.67"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "13.6"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.14"
+    },
+    "IonizationPotential": "6.65",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "23"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      10,
+      2
+    ],
+    "Group": 4,
+    "Period": 6,
+    "NameOrigin": "Copenhagen, Denmark (with the Latin name Hafnia)"
+  },
+  {
+    "Name": "Mercury",
+    "AtomicWeight": "200.59",
+    "AtomicNumber": "80",
+    "OxidationStates": "2, 1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "629.88"
+    },
+    "Symbol": "Hg",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "13.55"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d10 6s2",
+    "Electronegativity": "2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.6"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "14.8"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.140"
+    },
+    "IonizationPotential": "10.437",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "8.34"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      2
+    ],
+    "Group": 12,
+    "Period": 6,
+    "NameOrigin": "Mercury, the first planet in the Solar System (Hg from former name hydrargyrum, from Greek hydr- water and argyros silver)"
+  },
+  {
+    "Name": "Holmium",
+    "AtomicWeight": "164.9303",
+    "AtomicNumber": "67",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2968"
+    },
+    "Symbol": "Ho",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "8.8"
+    },
+    "ElectronConfiguration": "[Xe] 4f11 6s2",
+    "Electronegativity": "1.23",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.79"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "18.7"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.165"
+    },
+    "IonizationPotential": "6.02",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "16.2"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      29,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Stockholm, Sweden (with the Latin name Holmia)"
+  },
+  {
+    "Name": "Hassium",
+    "AtomicWeight": "265",
+    "AtomicNumber": "108",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Hs",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d6 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      14,
+      2
+    ],
+    "Group": 8,
+    "Period": 7,
+    "NameOrigin": "Hesse, Germany, where the element was first synthesized"
+  },
+  {
+    "Name": "Iodine",
+    "AtomicWeight": "126.9045",
+    "AtomicNumber": "53",
+    "OxidationStates": "+/-1, 5, 7",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "457.5"
+    },
+    "Symbol": "I",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "4.93"
+    },
+    "ElectronConfiguration": "[Kr] 4d10 5s2 p5",
+    "Electronegativity": "2.66",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.32"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "25.7"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.145"
+    },
+    "IonizationPotential": "10.451",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.449"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      7
+    ],
+    "Group": 17,
+    "Period": 5,
+    "NameOrigin": "the Greek 'iodes' meaning violet"
+  },
+  {
+    "Name": "Indium",
+    "AtomicWeight": "114.82",
+    "AtomicNumber": "49",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2350"
+    },
+    "Symbol": "In",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.31"
+    },
+    "ElectronConfiguration": "[Kr] 4d10 5s2 p1",
+    "Electronegativity": "1.78",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.66"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "15.7"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.233"
+    },
+    "IonizationPotential": "5.786",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "81.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      3
+    ],
+    "Group": 13,
+    "Period": 5,
+    "NameOrigin": "the Latin 'indicium', meaning violet or indigo"
+  },
+  {
+    "Name": "Iridium",
+    "AtomicWeight": "192.22",
+    "AtomicNumber": "77",
+    "OxidationStates": "2, 3, 4, 6",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4700"
+    },
+    "Symbol": "Ir",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "22.6"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d7 6s2",
+    "Electronegativity": "2.2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.36"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "8.54"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.13"
+    },
+    "IonizationPotential": "9.1",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "147"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      15,
+      2
+    ],
+    "Group": 9,
+    "Period": 6,
+    "NameOrigin": "Iris, the Greek goddess of the rainbow"
+  },
+  {
+    "Name": "Potassium",
+    "AtomicWeight": "39.0983",
+    "AtomicNumber": "19",
+    "OxidationStates": "1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1033"
+    },
+    "Symbol": "K",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "0.86"
+    },
+    "ElectronConfiguration": "[Ar] 4s1",
+    "Electronegativity": "0.82",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "2.35"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "45.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.757"
+    },
+    "IonizationPotential": "4.341",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "102.5"
+    },
+    "Electrons": [
+      2,
+      8,
+      8,
+      1
+    ],
+    "Group": 1,
+    "Period": 4,
+    "NameOrigin": "the English word potash (kalium in Latin)[2]"
+  },
+  {
+    "Name": "Krypton",
+    "AtomicWeight": "83.8",
+    "AtomicNumber": "36",
+    "OxidationStates": null,
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "120.85"
+    },
+    "Symbol": "Kr",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "3.75"
+    },
+    "ElectronConfiguration": "[Ar] 3d10 4s2 p6",
+    "Electronegativity": "0",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.03"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "32.2"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.248"
+    },
+    "IonizationPotential": "13.999",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.00949"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      8
+    ],
+    "Group": 18,
+    "Period": 4,
+    "NameOrigin": "the Greek 'kryptos', meaning hidden"
+  },
+  {
+    "Name": "Lanthanum",
+    "AtomicWeight": "138.9055",
+    "AtomicNumber": "57",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3737"
+    },
+    "Symbol": "La",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "6.15"
+    },
+    "ElectronConfiguration": "[Xe] 5d1 6s2",
+    "Electronegativity": "1.1",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.38"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "22.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.19"
+    },
+    "IonizationPotential": "5.58",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "13.5"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      9,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "the Greek 'lanthanein', meaning to lie hidden"
+  },
+  {
+    "Name": "Lithium",
+    "AtomicWeight": "6.941",
+    "AtomicNumber": "3",
+    "OxidationStates": "1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1615"
+    },
+    "Symbol": "Li",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "0.53"
+    },
+    "ElectronConfiguration": "1s2 2s1",
+    "Electronegativity": "0.98",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.55"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "13.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "3.582"
+    },
+    "IonizationPotential": "5.392",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "84.7"
+    },
+    "Electrons": [
+      2,
+      1
+    ],
+    "Group": 1,
+    "Period": 2,
+    "NameOrigin": "the Greek 'lithos' meaning stone"
+  },
+  {
+    "Name": "Lawrencium",
+    "AtomicWeight": "262",
+    "AtomicNumber": "103",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Lr",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d1 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      3
+    ],
+    "Group": 3,
+    "Period": 7,
+    "NameOrigin": "Ernest O. Lawrence, physicist"
+  },
+  {
+    "Name": "Lutetium",
+    "AtomicWeight": "174.967",
+    "AtomicNumber": "71",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3668"
+    },
+    "Symbol": "Lu",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "9.84"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d1 6s2",
+    "Electronegativity": "1.27",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.75"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "17.8"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.15"
+    },
+    "IonizationPotential": "5.43",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "16.4"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      9,
+      2
+    ],
+    "Group": 3,
+    "Period": 6,
+    "NameOrigin": "Paris, France (with the Roman name Lutetia)"
+  },
+  {
+    "Name": "Mendelevium",
+    "AtomicWeight": "258",
+    "AtomicNumber": "101",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Md",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f13 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6.58",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      31,
+      8,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Dmitri Mendeleyev, chemist and inventor"
+  },
+  {
+    "Name": "Magnesium",
+    "AtomicWeight": "24.305",
+    "AtomicNumber": "12",
+    "OxidationStates": "2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1380"
+    },
+    "Symbol": "Mg",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.74"
+    },
+    "ElectronConfiguration": "[Ne] 3s2",
+    "Electronegativity": "1.31",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.6"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "14"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "1.02"
+    },
+    "IonizationPotential": "7.646",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "156"
+    },
+    "Electrons": [
+      2,
+      8,
+      2
+    ],
+    "Group": 2,
+    "Period": 3,
+    "NameOrigin": "Magnesia, a district of Eastern Thessaly in Greece"
+  },
+  {
+    "Name": "Manganese",
+    "AtomicWeight": "54.938",
+    "AtomicNumber": "25",
+    "OxidationStates": "7, 6, 4, 2, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2335"
+    },
+    "Symbol": "Mn",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.44"
+    },
+    "ElectronConfiguration": "[Ar] 3d5 4s2",
+    "Electronegativity": "1.55",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.35"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "7.39"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.48"
+    },
+    "IonizationPotential": "7.435",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "7.82"
+    },
+    "Electrons": [
+      2,
+      8,
+      13,
+      2
+    ],
+    "Group": 7,
+    "Period": 4,
+    "NameOrigin": "Either the Latin 'magnes', meaning magnet or from the black magnesium oxide, 'magnesia nigra'"
+  },
+  {
+    "Name": "Molybdenum",
+    "AtomicWeight": "95.94",
+    "AtomicNumber": "42",
+    "OxidationStates": "6, 5, 4, 3, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4912"
+    },
+    "Symbol": "Mo",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "10.22"
+    },
+    "ElectronConfiguration": "[Kr] 4d5 5s1",
+    "Electronegativity": "2.16",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.39"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "9.4"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.25"
+    },
+    "IonizationPotential": "7.099",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "138"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      13,
+      1
+    ],
+    "Group": 6,
+    "Period": 5,
+    "NameOrigin": "the Greek 'molybdos' meaning lead"
+  },
+  {
+    "Name": "Meitnerium",
+    "AtomicWeight": "266",
+    "AtomicNumber": "109",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Mt",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d7 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      15,
+      2
+    ],
+    "Group": 9,
+    "Period": 7,
+    "NameOrigin": "Lise Meitner, physicist"
+  },
+  {
+    "Name": "Nitrogen",
+    "AtomicWeight": "14.0067",
+    "AtomicNumber": "7",
+    "OxidationStates": "+/-3, 5, 4, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "77.344"
+    },
+    "Symbol": "N",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.251"
+    },
+    "ElectronConfiguration": "1s2 2s2 p3",
+    "Electronegativity": "3.04",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "0.92"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "17.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "1.042"
+    },
+    "IonizationPotential": "14.534",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.02598"
+    },
+    "Electrons": [
+      2,
+      5
+    ],
+    "Group": 15,
+    "Period": 2,
+    "NameOrigin": "the Greek 'nitron' and 'genes' meaning nitre-forming"
+  },
+  {
+    "Name": "Sodium",
+    "AtomicWeight": "22.98977",
+    "AtomicNumber": "11",
+    "OxidationStates": "1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1156"
+    },
+    "Symbol": "Na",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "0.97"
+    },
+    "ElectronConfiguration": "[Ne] 3s1",
+    "Electronegativity": "0.93",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.9"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "23.7"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "1.23"
+    },
+    "IonizationPotential": "5.139",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "141"
+    },
+    "Electrons": [
+      2,
+      8,
+      1
+    ],
+    "Group": 1,
+    "Period": 3,
+    "NameOrigin": "the English word soda (natrium in Latin)[2]"
+  },
+  {
+    "Name": "Niobium",
+    "AtomicWeight": "92.9064",
+    "AtomicNumber": "41",
+    "OxidationStates": "5, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "5015"
+    },
+    "Symbol": "Nb",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "8.57"
+    },
+    "ElectronConfiguration": "[Kr] 4d4 5s1",
+    "Electronegativity": "1.6",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.46"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "10.8"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.265"
+    },
+    "IonizationPotential": "6.88",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "53.7"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ],
+    "Group": 5,
+    "Period": 5,
+    "NameOrigin": "Niobe, daughter of king Tantalus from Greek mythology"
+  },
+  {
+    "Name": "Neodymium",
+    "AtomicWeight": "144.24",
+    "AtomicNumber": "60",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3347"
+    },
+    "Symbol": "Nd",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.01"
+    },
+    "ElectronConfiguration": "[Xe] 4f4 6s2",
+    "Electronegativity": "1.14",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.82"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "20.6"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.19"
+    },
+    "IonizationPotential": "5.49",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "16.5"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      22,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "the Greek 'neos didymos' meaning new twin"
+  },
+  {
+    "Name": "Neon",
+    "AtomicWeight": "20.1797",
+    "AtomicNumber": "10",
+    "OxidationStates": null,
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "27.1"
+    },
+    "Symbol": "Ne",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "0.900"
+    },
+    "ElectronConfiguration": "1s2 2s2 p6",
+    "Electronegativity": "0",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "0.51"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "16.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "1.03"
+    },
+    "IonizationPotential": "21.564",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.0493"
+    },
+    "Electrons": [
+      2,
+      8
+    ],
+    "Group": 18,
+    "Period": 2,
+    "NameOrigin": "the Greek 'neos', meaning new"
+  },
+  {
+    "Name": "Nickel",
+    "AtomicWeight": "58.6934",
+    "AtomicNumber": "28",
+    "OxidationStates": "2, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3005"
+    },
+    "Symbol": "Ni",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "8.9"
+    },
+    "ElectronConfiguration": "[Ar] 3d8 4s2",
+    "Electronegativity": "1.91",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.24"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "6.6"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.444"
+    },
+    "IonizationPotential": "7.635",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "90.7"
+    },
+    "Electrons": [
+      2,
+      8,
+      16,
+      2
+    ],
+    "Group": 10,
+    "Period": 4,
+    "NameOrigin": "the shortened of the German 'kupfernickel' meaning either devil's copper or St. Nicholas's copper"
+  },
+  {
+    "Name": "Nobelium",
+    "AtomicWeight": "259",
+    "AtomicNumber": "102",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "No",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6.65",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "10"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Alfred Nobel, chemist, engineer, innovator, and armaments manufacturer"
+  },
+  {
+    "Name": "Neptunium",
+    "AtomicWeight": "237.0482",
+    "AtomicNumber": "93",
+    "OxidationStates": "6, 5, 4, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4175"
+    },
+    "Symbol": "Np",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "20.2"
+    },
+    "ElectronConfiguration": "[Rn] 5f4 6d1 7s2",
+    "Electronegativity": "1.36",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.3"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "21.1"
+    },
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "6.19",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "6.3"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Neptune, the eighth planet in the Solar System"
+  },
+  {
+    "Name": "Oxygen",
+    "AtomicWeight": "15.9994",
+    "AtomicNumber": "8",
+    "OxidationStates": "-2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "90.188"
+    },
+    "Symbol": "O",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.429"
+    },
+    "ElectronConfiguration": "1s2 2s2 p4",
+    "Electronegativity": "3.44",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "0.65"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "14"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.92"
+    },
+    "IonizationPotential": "13.618",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.2674"
+    },
+    "Electrons": [
+      2,
+      6
+    ],
+    "Group": 16,
+    "Period": 2,
+    "NameOrigin": "the Greek 'oxy' and 'genes' meaning acid-forming"
+  },
+  {
+    "Name": "Osmium",
+    "AtomicWeight": "190.2",
+    "AtomicNumber": "76",
+    "OxidationStates": "2, 3, 4, 6, 8",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "5300"
+    },
+    "Symbol": "Os",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "22.6"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d6 6s2",
+    "Electronegativity": "2.2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.35"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "8.43"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.13"
+    },
+    "IonizationPotential": "8.7",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "87.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      14,
+      2
+    ],
+    "Group": 8,
+    "Period": 6,
+    "NameOrigin": "the Greek 'osme', meaning smell"
+  },
+  {
+    "Name": "Phosphorus",
+    "AtomicWeight": "30.97376",
+    "AtomicNumber": "15",
+    "OxidationStates": "+/-3, 5, 4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "553"
+    },
+    "Symbol": "P",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.82"
+    },
+    "ElectronConfiguration": "[Ne] 3s2 p3",
+    "Electronegativity": "2.19",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.28"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "17"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.769"
+    },
+    "IonizationPotential": "10.486",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.235"
+    },
+    "Electrons": [
+      2,
+      8,
+      5
+    ],
+    "Group": 15,
+    "Period": 3,
+    "NameOrigin": "the Greek 'phosphoros', meaning bringer of light"
+  },
+  {
+    "Name": "Protactinium",
+    "AtomicWeight": "231.0359",
+    "AtomicNumber": "91",
+    "OxidationStates": "5, 4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4300"
+    },
+    "Symbol": "Pa",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "15.4"
+    },
+    "ElectronConfiguration": "[Rn] 5f2 6d1 7s2",
+    "Electronegativity": "1.5",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.61"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "15"
+    },
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "5.88",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "47"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      20,
+      9,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "the Greek 'protos', meaning first, as a prefix to the element actinium, which is produced through the radioactive decay of protactinium"
+  },
+  {
+    "Name": "Lead",
+    "AtomicWeight": "207.2",
+    "AtomicNumber": "82",
+    "OxidationStates": "4, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2023"
+    },
+    "Symbol": "Pb",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "11.35"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d10 6s2 p2",
+    "Electronegativity": "2.33",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.75"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "18.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.129"
+    },
+    "IonizationPotential": "7.416",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "35.3"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ],
+    "Group": 14,
+    "Period": 6,
+    "NameOrigin": "the Anglo-Saxon lead (plumbum in Latin)[2]"
+  },
+  {
+    "Name": "Palladium",
+    "AtomicWeight": "106.42",
+    "AtomicNumber": "46",
+    "OxidationStates": "2, 4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3240"
+    },
+    "Symbol": "Pd",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "12"
+    },
+    "ElectronConfiguration": "[Kr] 4d10",
+    "Electronegativity": "2.2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.37"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "8.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.244"
+    },
+    "IonizationPotential": "8.34",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "71.8"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18
+    ],
+    "Group": 10,
+    "Period": 5,
+    "NameOrigin": "the then recently discovered asteroid Pallas, considered a planet at the time"
+  },
+  {
+    "Name": "Promethium",
+    "AtomicWeight": "145",
+    "AtomicNumber": "61",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3273"
+    },
+    "Symbol": "Pm",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.22"
+    },
+    "ElectronConfiguration": "[Xe] 4f5 6s2",
+    "Electronegativity": "1.13",
+    "AtomicRadius": null,
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "22.4"
+    },
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "5.55",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "17.9"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      23,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Prometheus of Greek mythology who stole fire from the Gods and gave it to humans"
+  },
+  {
+    "Name": "Polonium",
+    "AtomicWeight": "209",
+    "AtomicNumber": "84",
+    "OxidationStates": "4, 2",
+    "BoilingPoint": null,
+    "Symbol": "Po",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "9.3"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d10 6s2 p4",
+    "Electronegativity": "2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.67"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "22.7"
+    },
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": "8.42",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "20"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      6
+    ],
+    "Group": 16,
+    "Period": 6,
+    "NameOrigin": "Poland, the native country of Marie Curie, who first isolated the element"
+  },
+  {
+    "Name": "Praseodymium",
+    "AtomicWeight": "140.9077",
+    "AtomicNumber": "59",
+    "OxidationStates": "3, 4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3785"
+    },
+    "Symbol": "Pr",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "6.77"
+    },
+    "ElectronConfiguration": "[Xe] 4f3 6s2",
+    "Electronegativity": "1.13",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.82"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "20.8"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.193"
+    },
+    "IonizationPotential": "5.42",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "12.5"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      21,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "the Greek 'prasinos didymos' meaning green twin"
+  },
+  {
+    "Name": "Platinum",
+    "AtomicWeight": "195.08",
+    "AtomicNumber": "78",
+    "OxidationStates": "2, 4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4100"
+    },
+    "Symbol": "Pt",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "21.45"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d9 6s1",
+    "Electronegativity": "2.28",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.39"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "9.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.13"
+    },
+    "IonizationPotential": "9",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "71.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      17,
+      1
+    ],
+    "Group": 10,
+    "Period": 6,
+    "NameOrigin": "the Spanish 'platina', meaning little silver"
+  },
+  {
+    "Name": "Plutonium",
+    "AtomicWeight": "244",
+    "AtomicNumber": "94",
+    "OxidationStates": "6, 5, 4, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3505"
+    },
+    "Symbol": "Pu",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "19.84"
+    },
+    "ElectronConfiguration": "[Rn] 5f6 7s2",
+    "Electronegativity": "1.28",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.51"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "12.32"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.13"
+    },
+    "IonizationPotential": "6.06",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "6.74"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      24,
+      8,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Pluto, a dwarf planet in the Solar System"
+  },
+  {
+    "Name": "Radium",
+    "AtomicWeight": "226.0254",
+    "AtomicNumber": "88",
+    "OxidationStates": "2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1413"
+    },
+    "Symbol": "Ra",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "5"
+    },
+    "ElectronConfiguration": "[Rn] 7s2",
+    "Electronegativity": "0.89",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "2.33"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "45.2"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.094"
+    },
+    "IonizationPotential": "5.279",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "18.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "Group": 2,
+    "Period": 7,
+    "NameOrigin": "the Latin 'radius', meaning ray"
+  },
+  {
+    "Name": "Rubidium",
+    "AtomicWeight": "85.4678",
+    "AtomicNumber": "37",
+    "OxidationStates": "1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "961"
+    },
+    "Symbol": "Rb",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "1.532"
+    },
+    "ElectronConfiguration": "[Kr] 5s1",
+    "Electronegativity": "0.82",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "2.48"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "55.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.363"
+    },
+    "IonizationPotential": "4.177",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "58.2"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ],
+    "Group": 1,
+    "Period": 5,
+    "NameOrigin": "the Latin 'rubidius', meaning deepest red"
+  },
+  {
+    "Name": "Rhenium",
+    "AtomicWeight": "186.207",
+    "AtomicNumber": "75",
+    "OxidationStates": "7, 6, 4, 2, -1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "5870"
+    },
+    "Symbol": "Re",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "21"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d5 6s2",
+    "Electronegativity": "1.9",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.37"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "8.85"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.137"
+    },
+    "IonizationPotential": "7.88",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "47.9"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      13,
+      2
+    ],
+    "Group": 7,
+    "Period": 6,
+    "NameOrigin": "Rhine, a river that flows from Grisons in the eastern Swiss Alps to the North Sea coast in the Netherlands (with the Latin name Rhenia)"
+  },
+  {
+    "Name": "Rutherfordium",
+    "AtomicWeight": "261",
+    "AtomicNumber": "104",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Rf",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d2 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10,
+      2
+    ],
+    "Group": 4,
+    "Period": 7,
+    "NameOrigin": "Ernest Rutherford, chemist and physicist"
+  },
+  {
+    "Name": "Rhodium",
+    "AtomicWeight": "102.9055",
+    "AtomicNumber": "45",
+    "OxidationStates": "2, 3, 4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3970"
+    },
+    "Symbol": "Rh",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "12.41"
+    },
+    "ElectronConfiguration": "[Kr] 4d8 5s1",
+    "Electronegativity": "2.28",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.34"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "8.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.242"
+    },
+    "IonizationPotential": "7.46",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "150"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      16,
+      1
+    ],
+    "Group": 9,
+    "Period": 5,
+    "NameOrigin": "the Greek 'rhodon', meaning rose coloured"
+  },
+  {
+    "Name": "Radon",
+    "AtomicWeight": "222",
+    "AtomicNumber": "86",
+    "OxidationStates": null,
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "211.4"
+    },
+    "Symbol": "Rn",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "9.73"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d10 6s2 p6",
+    "Electronegativity": "0",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.34"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "50.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.094"
+    },
+    "IonizationPotential": "10.748",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.00364"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8
+    ],
+    "Group": 18,
+    "Period": 6,
+    "NameOrigin": "From radium, as it was first detected as an emission from radium during radioactive decay"
+  },
+  {
+    "Name": "Ruthenium",
+    "AtomicWeight": "101.07",
+    "AtomicNumber": "44",
+    "OxidationStates": "2, 3, 4, 6, 8",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4425"
+    },
+    "Symbol": "Ru",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "12.37"
+    },
+    "ElectronConfiguration": "[Kr] 4d7 5s1",
+    "Electronegativity": "2.2",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.34"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "8.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.238"
+    },
+    "IonizationPotential": "7.37",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "117"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ],
+    "Group": 8,
+    "Period": 5,
+    "NameOrigin": "Russia (with the Latin name Ruthenia)"
+  },
+  {
+    "Name": "Sulfur",
+    "AtomicWeight": "32.066",
+    "AtomicNumber": "16",
+    "OxidationStates": "+/-2, 4, 6",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "717.82"
+    },
+    "Symbol": "S",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "2.07"
+    },
+    "ElectronConfiguration": "[Ne] 3s2 p4",
+    "Electronegativity": "2.58",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.27"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "15.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.71"
+    },
+    "IonizationPotential": "10.36",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.269"
+    },
+    "Electrons": [
+      2,
+      8,
+      6
+    ],
+    "Group": 16,
+    "Period": 3,
+    "NameOrigin": "Either from the Sanskrit 'sulvere', or the Latin 'sulfurium', both names for sulfur[2]"
+  },
+  {
+    "Name": "Silver",
+    "AtomicWeight": "107.868",
+    "AtomicNumber": "47",
+    "OxidationStates": "1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2436"
+    },
+    "Symbol": "Ag",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "10.5"
+    },
+    "ElectronConfiguration": "[Kr] 4d10 5s1",
+    "Electronegativity": "1.93",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.44"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "10.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.232"
+    },
+    "IonizationPotential": "7.576",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "429"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      1
+    ],
+    "Group": 11,
+    "Period": 5,
+    "NameOrigin": "the Anglo-Saxon name siolfur (argentum in Latin)[2]"
+  },
+  {
+    "Name": "Scandium",
+    "AtomicWeight": "44.9559",
+    "AtomicNumber": "21",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3109"
+    },
+    "Symbol": "Sc",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "2.99"
+    },
+    "ElectronConfiguration": "[Ar] 3d1 4s2",
+    "Electronegativity": "1.36",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.62"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "15"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.568"
+    },
+    "IonizationPotential": "6.54",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "15.8"
+    },
+    "Electrons": [
+      2,
+      8,
+      9,
+      2
+    ],
+    "Group": 3,
+    "Period": 4,
+    "NameOrigin": "Scandinavia (with the Latin name Scandia)"
+  },
+  {
+    "Name": "Selenium",
+    "AtomicWeight": "78.96",
+    "AtomicNumber": "34",
+    "OxidationStates": "-2, 4, 6",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "958"
+    },
+    "Symbol": "Se",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "4.79"
+    },
+    "ElectronConfiguration": "[Ar] 3d10 4s2 p4",
+    "Electronegativity": "2.55",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.4"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "16.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.32"
+    },
+    "IonizationPotential": "9.752",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "2.04"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      6
+    ],
+    "Group": 16,
+    "Period": 4,
+    "NameOrigin": "Moon (with the Greek name selene)"
+  },
+  {
+    "Name": "Seaborgium",
+    "AtomicWeight": "263",
+    "AtomicNumber": "106",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Sg",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d4 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      12,
+      2
+    ],
+    "Group": 6,
+    "Period": 7,
+    "NameOrigin": "Glenn T. Seaborg, scientist"
+  },
+  {
+    "Name": "Silicon",
+    "AtomicWeight": "28.0855",
+    "AtomicNumber": "14",
+    "OxidationStates": "4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2630"
+    },
+    "Symbol": "Si",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "2.33"
+    },
+    "ElectronConfiguration": "[Ne] 3s2 p2",
+    "Electronegativity": "1.9",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.32"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "12.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.70"
+    },
+    "IonizationPotential": "8.151",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "148"
+    },
+    "Electrons": [
+      2,
+      8,
+      4
+    ],
+    "Group": 14,
+    "Period": 3,
+    "NameOrigin": "the Latin 'silex' or 'silicis', meaning flint"
+  },
+  {
+    "Name": "Samarium",
+    "AtomicWeight": "150.36",
+    "AtomicNumber": "62",
+    "OxidationStates": "3, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2067"
+    },
+    "Symbol": "Sm",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.52"
+    },
+    "ElectronConfiguration": "[Xe] 4f6 6s2",
+    "Electronegativity": "1.17",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.81"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "19.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.197"
+    },
+    "IonizationPotential": "5.63",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "13.3"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      24,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Samarskite, the name of the mineral from which it was first isolated"
+  },
+  {
+    "Name": "Strontium",
+    "AtomicWeight": "87.62",
+    "AtomicNumber": "38",
+    "OxidationStates": "2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1655"
+    },
+    "Symbol": "Sr",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "2.54"
+    },
+    "ElectronConfiguration": "[Kr] 5s2",
+    "Electronegativity": "0.95",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "2.15"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "33.7"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.3"
+    },
+    "IonizationPotential": "5.695",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "35.3"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ],
+    "Group": 2,
+    "Period": 5,
+    "NameOrigin": "Strontian, a small town in Scotland"
+  },
+  {
+    "Name": "Tantalum",
+    "AtomicWeight": "180.9479",
+    "AtomicNumber": "73",
+    "OxidationStates": "5",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "5730"
+    },
+    "Symbol": "Ta",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "16.65"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d3 6s2",
+    "Electronegativity": "1.5",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.49"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "10.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.14"
+    },
+    "IonizationPotential": "7.89",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "57.5"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      11,
+      2
+    ],
+    "Group": 5,
+    "Period": 6,
+    "NameOrigin": "King Tantalus, father of Niobe from Greek mythology"
+  },
+  {
+    "Name": "Terbium",
+    "AtomicWeight": "158.9253",
+    "AtomicNumber": "65",
+    "OxidationStates": "3, 4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3500"
+    },
+    "Symbol": "Tb",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "8.23"
+    },
+    "ElectronConfiguration": "[Xe] 4f9 6s2",
+    "Electronegativity": "1.1",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.8"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "19.2"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.18"
+    },
+    "IonizationPotential": "5.86",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "11.1"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      27,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Ytterby, Sweden"
+  },
+  {
+    "Name": "Technetium",
+    "AtomicWeight": "98",
+    "AtomicNumber": "43",
+    "OxidationStates": "7",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4538"
+    },
+    "Symbol": "Tc",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "11.5"
+    },
+    "ElectronConfiguration": "[Kr] 4d5 5s2",
+    "Electronegativity": "1.9",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.36"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "8.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.24"
+    },
+    "IonizationPotential": "7.28",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "50.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      13,
+      2
+    ],
+    "Group": 7,
+    "Period": 5,
+    "NameOrigin": "the Greek 'tekhnetos' meaning artificial"
+  },
+  {
+    "Name": "Tellurium",
+    "AtomicWeight": "127.6",
+    "AtomicNumber": "52",
+    "OxidationStates": "-2, 4, 6",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1261"
+    },
+    "Symbol": "Te",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "6.24"
+    },
+    "ElectronConfiguration": "[Kr] 4d10 5s2 p4",
+    "Electronegativity": "2.1",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.42"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "20.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.202"
+    },
+    "IonizationPotential": "9.009",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "2.35"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      6
+    ],
+    "Group": 16,
+    "Period": 5,
+    "NameOrigin": "Earth, the third planet in the solar system (with the Latin word tellus)"
+  },
+  {
+    "Name": "Thorium",
+    "AtomicWeight": "232.0381",
+    "AtomicNumber": "90",
+    "OxidationStates": "4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "5060"
+    },
+    "Symbol": "Th",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "11.72"
+    },
+    "ElectronConfiguration": "[Rn] 6d2 7s2",
+    "Electronegativity": "1.3",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.8"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "19.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.113"
+    },
+    "IonizationPotential": "6.08",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "54"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      10,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Thor, the Scandinavian god of thunder"
+  },
+  {
+    "Name": "Tin",
+    "AtomicWeight": "118.71",
+    "AtomicNumber": "50",
+    "OxidationStates": "4, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2876"
+    },
+    "Symbol": "Sn",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.31"
+    },
+    "ElectronConfiguration": "[Kr] 4d10 5s2 p2",
+    "Electronegativity": "1.96",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.62"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "16.3"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.228"
+    },
+    "IonizationPotential": "7.344",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "66.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      4
+    ],
+    "Group": 14,
+    "Period": 5,
+    "NameOrigin": "the Anglo-Saxon word tin (stannum in Latin, meaning hard)"
+  },
+  {
+    "Name": "Titanium",
+    "AtomicWeight": "47.88",
+    "AtomicNumber": "22",
+    "OxidationStates": "4, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3560"
+    },
+    "Symbol": "Ti",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "4.54"
+    },
+    "ElectronConfiguration": "[Ar] 3d2 4s2",
+    "Electronegativity": "1.54",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.45"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "10.6"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.523"
+    },
+    "IonizationPotential": "6.82",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "21.9"
+    },
+    "Electrons": [
+      2,
+      8,
+      10,
+      2
+    ],
+    "Group": 4,
+    "Period": 4,
+    "NameOrigin": "Titans, the sons of the Earth goddess of Greek mythology"
+  },
+  {
+    "Name": "Thallium",
+    "AtomicWeight": "204.383",
+    "AtomicNumber": "81",
+    "OxidationStates": "3, 1",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1746"
+    },
+    "Symbol": "Tl",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "11.85"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d10 6s2 p1",
+    "Electronegativity": "2.04",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.71"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "17.2"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.129"
+    },
+    "IonizationPotential": "6.108",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "46.1"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ],
+    "Group": 13,
+    "Period": 6,
+    "NameOrigin": "the Greek 'thallos', meaning a green twig"
+  },
+  {
+    "Name": "Thulium",
+    "AtomicWeight": "168.9342",
+    "AtomicNumber": "69",
+    "OxidationStates": "3, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "2223"
+    },
+    "Symbol": "Tm",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "9.32"
+    },
+    "ElectronConfiguration": "[Xe] 4f13 6s2",
+    "Electronegativity": "1.25",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.77"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "18.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.16"
+    },
+    "IonizationPotential": "6.184",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "16.8"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      31,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Thule, the ancient name for Scandinavia"
+  },
+  {
+    "Name": "Uranium",
+    "AtomicWeight": "238.029",
+    "AtomicNumber": "92",
+    "OxidationStates": "6, 5, 4, 3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4407"
+    },
+    "Symbol": "U",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "18.95"
+    },
+    "ElectronConfiguration": "[Rn] 5f3 6d1 7s2",
+    "Electronegativity": "1.38",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.38"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "12.5"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.12"
+    },
+    "IonizationPotential": "6.05",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "27.6"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ],
+    "Group": 2000,
+    "Period": 7,
+    "NameOrigin": "Uranus, the seventh planet in the Solar System"
+  },
+  {
+    "Name": "Copernicium",
+    "AtomicWeight": "277",
+    "AtomicNumber": "112",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Cn",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d10 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      2
+    ],
+    "Group": 12,
+    "Period": 7,
+    "NameOrigin": "Nicolaus Copernicus, astronomer"
+  },
+  {
+    "Name": "Darmstadtium",
+    "AtomicWeight": "269",
+    "AtomicNumber": "110",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Ds",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d8 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      17,
+      1
+    ],
+    "Group": 10,
+    "Period": 7,
+    "NameOrigin": "Darmstadt, Germany, where the element was first synthesized"
+  },
+  {
+    "Name": "Roentgenium",
+    "AtomicWeight": "272",
+    "AtomicNumber": "111",
+    "OxidationStates": null,
+    "BoilingPoint": null,
+    "Symbol": "Rg",
+    "Density": null,
+    "ElectronConfiguration": "[Rn] 5f14 6d9 7s2",
+    "Electronegativity": null,
+    "AtomicRadius": null,
+    "AtomicVolume": null,
+    "SpecificHeatCapacity": null,
+    "IonizationPotential": null,
+    "ThermalConductivity": null,
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      1
+    ],
+    "Group": 11,
+    "Period": 7,
+    "NameOrigin": "Wilhelm Conrad Röntgen, physicist"
+  },
+  {
+    "Name": "Vanadium",
+    "AtomicWeight": "50.9415",
+    "AtomicNumber": "23",
+    "OxidationStates": "5, 4, 3, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3650"
+    },
+    "Symbol": "V",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "6.11"
+    },
+    "ElectronConfiguration": "[Ar] 3d3 4s2",
+    "Electronegativity": "1.63",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.34"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "8.35"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.489"
+    },
+    "IonizationPotential": "6.74",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "30.7"
+    },
+    "Electrons": [
+      2,
+      8,
+      11,
+      2
+    ],
+    "Group": 5,
+    "Period": 4,
+    "NameOrigin": "Vanadis, an old Norse name for the Scandinavian goddess Freyja"
+  },
+  {
+    "Name": "Tungsten",
+    "AtomicWeight": "183.85",
+    "AtomicNumber": "74",
+    "OxidationStates": "6, 5, 4, 3, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "5825"
+    },
+    "Symbol": "W",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "19.3"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 5d4 6s2",
+    "Electronegativity": "2.36",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.41"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "9.53"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.13"
+    },
+    "IonizationPotential": "7.98",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "174"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      12,
+      2
+    ],
+    "Group": 6,
+    "Period": 6,
+    "NameOrigin": "the Swedish 'tung sten' meaning heavy stone (W is wolfram, the old name of the tungsten mineral wolframite)[2]"
+  },
+  {
+    "Name": "Xenon",
+    "AtomicWeight": "131.29",
+    "AtomicNumber": "54",
+    "OxidationStates": null,
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "165.1"
+    },
+    "Symbol": "Xe",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "5.9"
+    },
+    "ElectronConfiguration": "[Kr] 4d10 5s2 p6",
+    "Electronegativity": "2.6",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.24"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "42.9"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.158"
+    },
+    "IonizationPotential": "12.13",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "0.00569"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      18,
+      8
+    ],
+    "Group": 18,
+    "Period": 5,
+    "NameOrigin": "the Greek 'xenos' meaning stranger"
+  },
+  {
+    "Name": "Yttrium",
+    "AtomicWeight": "88.9059",
+    "AtomicNumber": "39",
+    "OxidationStates": "3",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "3611"
+    },
+    "Symbol": "Y",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "4.47"
+    },
+    "ElectronConfiguration": "[Kr] 4d1 5s2",
+    "Electronegativity": "1.22",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.78"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "19.8"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.3"
+    },
+    "IonizationPotential": "6.38",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "17.2"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      9,
+      2
+    ],
+    "Group": 3,
+    "Period": 5,
+    "NameOrigin": "Ytterby, Sweden"
+  },
+  {
+    "Name": "Ytterbium",
+    "AtomicWeight": "173.04",
+    "AtomicNumber": "70",
+    "OxidationStates": "3, 2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1469"
+    },
+    "Symbol": "Yb",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "6.97"
+    },
+    "ElectronConfiguration": "[Xe] 4f14 6s2",
+    "Electronegativity": "1.1",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.94"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "24.8"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.155"
+    },
+    "IonizationPotential": "6.254",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "34.9"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      32,
+      8,
+      2
+    ],
+    "Group": 1000,
+    "Period": 6,
+    "NameOrigin": "Ytterby, Sweden"
+  },
+  {
+    "Name": "Zinc",
+    "AtomicWeight": "65.39",
+    "AtomicNumber": "30",
+    "OxidationStates": "2",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "1180"
+    },
+    "Symbol": "Zn",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "7.13"
+    },
+    "ElectronConfiguration": "[Ar] 3d10 4s2",
+    "Electronegativity": "1.65",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.38"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "9.2"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.388"
+    },
+    "IonizationPotential": "9.394",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "116"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      2
+    ],
+    "Group": 12,
+    "Period": 4,
+    "NameOrigin": "the German, 'zinc', which may in turn be derived from the Persian word 'sing', meaning stone"
+  },
+  {
+    "Name": "Zirconium",
+    "AtomicWeight": "91.224",
+    "AtomicNumber": "40",
+    "OxidationStates": "4",
+    "BoilingPoint": {
+      "Unit": "Kelvin",
+      "Value": "4682"
+    },
+    "Symbol": "Zr",
+    "Density": {
+      "Unit": "grams/cubic centimeter",
+      "Value": "6.51"
+    },
+    "ElectronConfiguration": "[Kr] 4d2 5s2",
+    "Electronegativity": "1.33",
+    "AtomicRadius": {
+      "Unit": "Angstroms",
+      "Value": "1.6"
+    },
+    "AtomicVolume": {
+      "Unit": "cubic centimeters/mole",
+      "Value": "14.1"
+    },
+    "SpecificHeatCapacity": {
+      "Unit": "Joules/gram/degree Kelvin",
+      "Value": "0.278"
+    },
+    "IonizationPotential": "6.84",
+    "ThermalConductivity": {
+      "Unit": "Watts/meter/degree Kelvin",
+      "Value": "22.7"
+    },
+    "Electrons": [
+      2,
+      8,
+      18,
+      10,
+      2
+    ],
+    "Group": 4,
+    "Period": 5,
+    "NameOrigin": "the Persian 'zargun', meaning gold coloured"
+  }
+]

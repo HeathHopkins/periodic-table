@@ -76,29 +76,19 @@ namespace PeriodicTable
             var textPadding = 0;
             var textHeight = (Frame.Height - (textPadding * 5)) / 5;
 
-            //var font = UIFont.SystemFontOfSize(textHeight - 2);
-            var font = Theme.Font.Bold(textHeight);
+            var font = Theme.Font.Semibold(textHeight);
 
-            lblAtomicNumber.Frame = new RectangleF(0, textPadding, Frame.Width, textHeight);
+            lblAtomicNumber.Frame = new RectangleF(0, 2, Frame.Width, textHeight);
             lblAtomicNumber.Font = font;
 
-            //lblSymbol.Frame = new RectangleF(0, lblAtomicNumber.Frame.Bottom + textPadding, Frame.Width, textHeight * 2);
-            //lblSymbol.Font = UIFont.SystemFontOfSize(textHeight * 2 - 4);
             lblSymbol.Frame = vBackground.Frame;
-            //lblSymbol.Font = Theme.Font.Black(textHeight * 2 - 4);
             lblSymbol.Font = Theme.Font.Black(Frame.Height / 3 + 2);
 
 
-            var heightLblName = (Frame.Height - lblSymbol.Font.LineHeight) / 2;
-            var topLblName = heightLblName + lblSymbol.Font.LineHeight;
-
-            //lblName.Frame = new RectangleF(0, lblSymbol.Frame.Bottom + textPadding, Frame.Width, textHeight);
-            //lblName.Frame = new RectangleF(0, Frame.Height - textHeight, Frame.Width, textHeight);
+            var heightLblName = ((Frame.Height - lblSymbol.Font.LineHeight - lblSymbol.Font.Descender) / 2);
+            var topLblName = heightLblName + lblSymbol.Font.LineHeight + lblSymbol.Font.Descender;
             lblName.Frame = new RectangleF(0, topLblName, Frame.Width, heightLblName);
             lblName.Font = font;
-
-//            lblWeight.Frame = new RectangleF(0, lblName.Frame.Bottom + textPadding, Frame.Width, textHeight);
-//            lblWeight.Font = font;
         }
 
         public UIColor CellBackgroundColor
@@ -123,13 +113,13 @@ namespace PeriodicTable
                 case "Noble Gases":
                     return FlatUI.Color.BelizeHole;
                 case "Alkali Metals":
-                    return FlatUI.Color.SunFlower;
+                    return FlatUI.Color.Orange;
                 case "Alkaline Earth Metals":
-                    return FlatUI.Color.Carrot;
+                    return FlatUI.Color.SunFlower;
                 case "Lanthanoids":
-                    return FlatUI.Color.Pomegranate;
-                case "Actinoids":
                     return FlatUI.Color.Pumpkin;
+                case "Actinoids":
+                    return FlatUI.Color.Pomegranate;
                 case "Transition Metals":
                     return FlatUI.Color.PeterRiver;
                 case "Post-transition Metals":

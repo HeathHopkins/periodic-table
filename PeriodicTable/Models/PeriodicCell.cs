@@ -8,11 +8,11 @@ namespace PeriodicTable
     [Register("PeriodicCell")]
     public class PeriodicCell : UIView
     {
-        PTLabel lblAtomicNumber, lblSymbol, lblName, lblWeight;
+        protected PTLabel lblAtomicNumber, lblSymbol, lblName;
 
-        UIView vBackground;
+        protected UIView vBackground;
 
-        const int PaddingWidth = 4;
+        protected const int PaddingWidth = 4;
 
         public Element Element { get; private set; }
 
@@ -25,38 +25,45 @@ namespace PeriodicTable
 
             vBackground = new UIView()
             {
-                BackgroundColor = UIColor.FromRGBA(255, 255, 255, 200)
+                //BackgroundColor = UIColor.FromRGBA(255, 255, 255, 200)
+                //BackgroundColor = FlatUI.Color.PeterRiver
+                BackgroundColor = CellBackgroundColor
             };
             this.Add(vBackground);
 
 
             lblAtomicNumber = new PTLabel()
             {
-                Text = this.Element.AtomicNumber
+                Text = this.Element.AtomicNumber.ToString(),
+                TextColor = UIColor.White
             };
 
             lblSymbol = new PTLabel()
             {
-                Text = this.Element.Symbol
+                Text = this.Element.Symbol,
+                TextColor = UIColor.White,
+                TextAlignment = UITextAlignment.Center
             };
 
             lblName = new PTLabel()
             {
                 Text = this.Element.Name,
-                BackgroundColor = UIColor.Clear,
-                AdjustsFontSizeToFitWidth = true
+                TextColor = UIColor.White,
+                TextAlignment = UITextAlignment.Center,
+                AdjustsFontSizeToFitWidth = true,
+                //BackgroundColor = UIColor.Red
             };
 
-            lblWeight = new PTLabel()
-            {
-                Text = this.Element.AtomicWeight,
-                AdjustsFontSizeToFitWidth = true
-            };
+//            lblWeight = new PTLabel()
+//            {
+//                Text = this.Element.AtomicWeight,
+//                AdjustsFontSizeToFitWidth = true
+//            };
 
-            Add(lblAtomicNumber);
             Add(lblSymbol);
+            Add(lblAtomicNumber);
             Add(lblName);
-            Add(lblWeight);
+//            Add(lblWeight);
         }
 
 
@@ -69,19 +76,67 @@ namespace PeriodicTable
             var textPadding = 0;
             var textHeight = (Frame.Height - (textPadding * 5)) / 5;
 
-            var font = UIFont.SystemFontOfSize(textHeight - 2);
+            //var font = UIFont.SystemFontOfSize(textHeight - 2);
+            var font = Theme.Font.Bold(textHeight);
 
             lblAtomicNumber.Frame = new RectangleF(0, textPadding, Frame.Width, textHeight);
             lblAtomicNumber.Font = font;
 
-            lblSymbol.Frame = new RectangleF(0, lblAtomicNumber.Frame.Bottom + textPadding, Frame.Width, textHeight * 2);
-            lblSymbol.Font = UIFont.SystemFontOfSize(textHeight * 2 - 4);
+            //lblSymbol.Frame = new RectangleF(0, lblAtomicNumber.Frame.Bottom + textPadding, Frame.Width, textHeight * 2);
+            //lblSymbol.Font = UIFont.SystemFontOfSize(textHeight * 2 - 4);
+            lblSymbol.Frame = vBackground.Frame;
+            //lblSymbol.Font = Theme.Font.Black(textHeight * 2 - 4);
+            lblSymbol.Font = Theme.Font.Black(Frame.Height / 3 + 2);
 
-            lblName.Frame = new RectangleF(0, lblSymbol.Frame.Bottom + textPadding, Frame.Width, textHeight);
+
+            var heightLblName = (Frame.Height - lblSymbol.Font.LineHeight) / 2;
+            var topLblName = heightLblName + lblSymbol.Font.LineHeight;
+
+            //lblName.Frame = new RectangleF(0, lblSymbol.Frame.Bottom + textPadding, Frame.Width, textHeight);
+            //lblName.Frame = new RectangleF(0, Frame.Height - textHeight, Frame.Width, textHeight);
+            lblName.Frame = new RectangleF(0, topLblName, Frame.Width, heightLblName);
             lblName.Font = font;
 
-            lblWeight.Frame = new RectangleF(0, lblName.Frame.Bottom + textPadding, Frame.Width, textHeight);
-            lblWeight.Font = font;
+//            lblWeight.Frame = new RectangleF(0, lblName.Frame.Bottom + textPadding, Frame.Width, textHeight);
+//            lblWeight.Font = font;
+        }
+
+        public UIColor CellBackgroundColor
+        {
+            get
+            {
+                return PeriodicCell.GetBackgroundColor(Element.GroupName);
+            }
+        }
+
+        public static UIColor GetBackgroundColor(string groupName)
+        {
+            Console.WriteLine(groupName);
+            switch (groupName)
+            {
+                case "Metalloids":
+                    return FlatUI.Color.Amethyst;
+                case "Other Nonmetals":
+                    return FlatUI.Color.Emerald;
+                case "Halogens":
+                    return FlatUI.Color.Alizarin;
+                case "Noble Gases":
+                    return FlatUI.Color.BelizeHole;
+                case "Alkali Metals":
+                    return FlatUI.Color.SunFlower;
+                case "Alkaline Earth Metals":
+                    return FlatUI.Color.Carrot;
+                case "Lanthanoids":
+                    return FlatUI.Color.Pomegranate;
+                case "Actinoids":
+                    return FlatUI.Color.Pumpkin;
+                case "Transition Metals":
+                    return FlatUI.Color.PeterRiver;
+                case "Post-transition Metals":
+                    return FlatUI.Color.GreenSea;
+                default:
+                    return UIColor.Black;
+            }
         }
 
 //        public override void Draw(System.Drawing.RectangleF rect)

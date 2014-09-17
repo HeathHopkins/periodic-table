@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPadRetina.7.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PeriodicTable/Theme.cs">
+    <Files>
+      <File FileName="PeriodicTable/ViewControllers/PeriodicTableViewController.cs" Line="52" Column="52" />
+      <File FileName="PeriodicTable/AppDelegate.cs" Line="5" Column="5" />
+      <File FileName="PeriodicTable/Theme.cs" Line="10" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -15,7 +15,7 @@ namespace PeriodicTable
 
         public override void DrawText(RectangleF rect)
         {
-            var insets = new UIEdgeInsets(0, 4, 0, 4);
+            var insets = new UIEdgeInsets(0, 2, 0, 2);
             base.DrawText(insets.InsetRect(rect));
         }
     }

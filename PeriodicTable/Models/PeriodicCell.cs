@@ -10,8 +10,6 @@ namespace PeriodicTable
     {
         protected PTLabel lblAtomicNumber, lblSymbol, lblName;
 
-        protected UIView vBackground;
-
         protected const int PaddingWidth = 4;
 
         public Element Element { get; private set; }
@@ -21,28 +19,21 @@ namespace PeriodicTable
         {
             this.Element = element;
 
-            this.BackgroundColor = UIColor.Clear;
-
-            vBackground = new UIView()
-            {
-                //BackgroundColor = UIColor.FromRGBA(255, 255, 255, 200)
-                //BackgroundColor = FlatUI.Color.PeterRiver
-                BackgroundColor = CellBackgroundColor
-            };
-            this.Add(vBackground);
-
+            this.BackgroundColor = CellBackgroundColor;
 
             lblAtomicNumber = new PTLabel()
             {
                 Text = this.Element.AtomicNumber.ToString(),
-                TextColor = UIColor.White
+                TextColor = UIColor.White,
+                BackgroundColor = this.BackgroundColor
             };
 
             lblSymbol = new PTLabel()
             {
                 Text = this.Element.Symbol,
                 TextColor = UIColor.White,
-                TextAlignment = UITextAlignment.Center
+                TextAlignment = UITextAlignment.Center,
+                BackgroundColor = this.BackgroundColor
             };
 
             lblName = new PTLabel()
@@ -51,6 +42,7 @@ namespace PeriodicTable
                 TextColor = UIColor.White,
                 TextAlignment = UITextAlignment.Center,
                 AdjustsFontSizeToFitWidth = true,
+                BackgroundColor = UIColor.Clear
                 //BackgroundColor = UIColor.Red
             };
 
@@ -71,24 +63,28 @@ namespace PeriodicTable
         {
             base.LayoutSubviews();
 
-            vBackground.Frame = new RectangleF(0, 0, Frame.Width, Frame.Height);
+            lblSymbol.Frame = new RectangleF(0, 0, Frame.Width, Frame.Height);
 
-            var textPadding = 0;
-            var textHeight = (Frame.Height - (textPadding * 5)) / 5;
+            var symbolFontSize = Math.Floor(Frame.Height / 2.3);
+            symbolFontSize = symbolFontSize % 2 == 0 ? symbolFontSize : symbolFontSize - 1;
+            lblSymbol.Font = Theme.Font.Black((float)symbolFontSize);
 
-            var font = Theme.Font.Semibold(textHeight);
+            var textFontSize = Math.Floor(Frame.Height / 5);
+            textFontSize = textFontSize % 2 == 0 ? textFontSize : textFontSize - 1;
+            var font = Theme.Font.Semibold((float)textFontSize);
 
-            lblAtomicNumber.Frame = new RectangleF(0, 2, Frame.Width, textHeight);
+            //var heightLblName = ((Frame.Height - lblSymbol.Font.LineHeight - lblSymbol.Font.Descender) / 2);
+            var heightLblName = Math.Floor(Frame.Height / 3);
+            heightLblName = heightLblName % 2 == 0 ? heightLblName : heightLblName - 1;
+            //var yLblName = heightLblName + lblSymbol.Font.LineHeight + lblSymbol.Font.Descender;
+            var yLblName = Frame.Height - heightLblName;
+            lblName.Frame = new RectangleF(0, (float)yLblName, Frame.Width, (float)heightLblName);
+            lblName.Font = font;
+
+            lblAtomicNumber.Frame = new RectangleF(0, 2, Frame.Width, (float)textFontSize);
             lblAtomicNumber.Font = font;
 
-            lblSymbol.Frame = vBackground.Frame;
-            lblSymbol.Font = Theme.Font.Black(Frame.Height / 3 + 2);
 
-
-            var heightLblName = ((Frame.Height - lblSymbol.Font.LineHeight - lblSymbol.Font.Descender) / 2);
-            var topLblName = heightLblName + lblSymbol.Font.LineHeight + lblSymbol.Font.Descender;
-            lblName.Frame = new RectangleF(0, topLblName, Frame.Width, heightLblName);
-            lblName.Font = font;
         }
 
         public UIColor CellBackgroundColor
@@ -101,7 +97,6 @@ namespace PeriodicTable
 
         public static UIColor GetBackgroundColor(string groupName)
         {
-            Console.WriteLine(groupName);
             switch (groupName)
             {
                 case "Metalloids":

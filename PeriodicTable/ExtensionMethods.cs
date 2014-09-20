@@ -87,5 +87,20 @@ namespace PeriodicTable
 
             return UIColor.FromRGBA(r, g, b, a);
         }
+
+        public static RectangleF ToEvenValues(this RectangleF frame)
+        {
+            var x = (int)frame.X;
+            var height = (int)frame.Height;
+            if (height % 2 != 0) // if not odd, reduce by 1
+                height--;
+
+            var y = (int)frame.Y;
+            var width = (int)frame.Width;
+            if (width % 2 != 0) // if not odd, reduce by 1
+                width--;
+
+            return new RectangleF((float)x, (float)y, (float)width, (float)height);
+        }
     }
 }

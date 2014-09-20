@@ -15,7 +15,7 @@ namespace PeriodicTable
 
         List<PeriodicCellPlaceholder> PlaceholderCells;
 
-        const int CellPadding = 3;
+        const int CellMargin = 2;
 
         public PeriodicTable(RectangleF frame, List<Element> elements)
             : base(frame)
@@ -58,54 +58,53 @@ namespace PeriodicTable
         {
             base.LayoutSubviews();
 
+
+            var baseWidth = Frame.Width;
             var columns = 18;
             //var rows = 7;
 
-            var cellWidth = (Frame.Width - ((columns + 1) * CellPadding)) / columns;
-            //var cellWidth = Frame.Width / columns;
-            Console.WriteLine("FrameWidth {1}, Width {0}", cellWidth, Frame.Width);
-            //var cellWidth = 55;
+
+            var tableWidth = baseWidth - CellMargin;  // seed an offset
+            while (tableWidth % columns != 0)
+                tableWidth = tableWidth - 2;
+            Console.WriteLine("Calculated table width: {0}", tableWidth);
+
+            var tableWidthMargin = (baseWidth - tableWidth) / 2;
+            Console.WriteLine("Left and right table margin is {0}", tableWidthMargin);
+
+            // THIS VALUE NEEDS TO BE EVEN TO PREVENT BLURRY TEXT
+            var cellWidth = (tableWidth / columns) - 2;
+            Console.WriteLine("Cell width w/o margin: {0}", cellWidth);
 
             // layout standard cells
             Cells.Where(o => !o.Element.IsActinoid && !o.Element.IsLanthanoid).ToList().ForEach(cell =>
             {
-                var top = cell.Element.Column * CellPadding + ((cell.Element.Column - 1) * cellWidth);
-                var left = cell.Element.Row * CellPadding + ((cell.Element.Row - 1) * cellWidth);
-                cell.Frame = new RectangleF(top, left, cellWidth, cellWidth);
+                var marginOffset = cell.Element.Column == 1 ? CellMargin / 2 : CellMargin;
+                var x = cell.Element.Column * marginOffset + ((cell.Element.Column - 1) * cellWidth) + tableWidthMargin;
+                var y = cell.Element.Row * CellMargin + ((cell.Element.Row - 1) * cellWidth);
+                cell.Frame = new RectangleF(x, y, cellWidth, cellWidth);
                 cell.SetNeedsLayout();
             });
 
             // layout Lanthanoids and Actinoids
             Cells.Where(o => o.Element.IsLanthanoid || o.Element.IsActinoid).ToList().ForEach(cell =>
             {
-                var offset = (cellWidth + CellPadding) / 2;
-                var top = cell.Element.Column * CellPadding + ((cell.Element.Column - 1) * cellWidth) + offset;
-                var left = cell.Element.Row * CellPadding + ((cell.Element.Row - 1) * cellWidth) // normal positioning
-                    + ((cellWidth + CellPadding) * 2) // shifts it down to outside of the normal table flow
+                var offset = (cellWidth + CellMargin) / 2;
+                var x = cell.Element.Column * CellMargin + ((cell.Element.Column - 1) * cellWidth) + offset;
+                var y = cell.Element.Row * CellMargin + ((cell.Element.Row - 1) * cellWidth) // normal positioning
+                    + ((cellWidth + CellMargin) * 2) // shifts it down to outside of the normal table flow
                     + offset; // shifts it down a little more to show that it's not just another row
-                cell.Frame = new RectangleF(top, left, cellWidth, cellWidth);
+                cell.Frame = new RectangleF(x, y, cellWidth, cellWidth).ToEvenValues();
                 cell.SetNeedsLayout();
             });
 
             PlaceholderCells.ForEach(cell =>
             {
-                var top = cell.Element.Column * CellPadding + ((cell.Element.Column - 1) * cellWidth);
-                var left = cell.Element.Row * CellPadding + ((cell.Element.Row - 1) * cellWidth);
-                cell.Frame = new RectangleF(top, left, cellWidth, cellWidth);
-                cell.SetNeedsLayout();
+                //var top = cell.Element.Column * CellPadding + ((cell.Element.Column - 1) * cellWidth);
+                //var left = cell.Element.Row * CellPadding + ((cell.Element.Row - 1) * cellWidth);
+                //cell.Frame = new RectangleF(top, left, cellWidth, cellWidth);
+                //cell.SetNeedsLayout();
             });
-
-//            // layout Actinoid
-//            Cells.Where(o => o.Element.IsActinoid).ToList().ForEach(cell =>
-//            {
-//                var offset = (cellWidth + CellPadding) / 2;
-//                var top = cell.Element.Column * CellPadding + ((cell.Element.Column - 1) * cellWidth) + offset;
-//                var left = cell.Element.Row * CellPadding + ((cell.Element.Row - 1) * cellWidth) // normal positioning
-//                    + ((cellWidth + CellPadding) * 2) // shifts it down to outside of the normal table flow
-//                    + offset; // shifts it down a little more to show that it's not just another row
-//                cell.Frame = new RectangleF(top, left, cellWidth, cellWidth);
-//                cell.SetNeedsLayout();
-//            });
         }
     }
 }

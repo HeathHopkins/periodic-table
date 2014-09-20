@@ -28,6 +28,15 @@ namespace PeriodicTable
             this.PeriodicTable = new PeriodicTable(new RectangleF(0, 44, View.Frame.Width, View.Frame.Height), Element.All);
             this.PeriodicTable.AutoresizingMask = View.AutoresizingMask;
             Add(this.PeriodicTable);
+
+            var label = new UILabel(new RectangleF(0, 600, 100, 20))
+            {
+                Text = "Heath Hopkins",
+                Font = UIFont.SystemFontOfSize(10),// Theme.Font.Semibold(10),
+                TextColor = UIColor.Black
+            };
+            Add(label);
+            Console.WriteLine(label.Center);
         }
 
         public override void DidRotate(UIInterfaceOrientation fromInterfaceOrientation)

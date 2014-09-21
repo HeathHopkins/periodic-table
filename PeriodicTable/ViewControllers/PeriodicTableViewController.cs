@@ -11,6 +11,8 @@ namespace PeriodicTable
     {
         PeriodicTable PeriodicTable;
 
+
+
         public PeriodicTableViewController()
             : base()
         {
@@ -29,14 +31,11 @@ namespace PeriodicTable
             this.PeriodicTable.AutoresizingMask = View.AutoresizingMask;
             Add(this.PeriodicTable);
 
-            var label = new UILabel(new RectangleF(0, 600, 100, 20))
+
+            this.PeriodicTable.CellSelected += (Element item) =>
             {
-                Text = "Heath Hopkins",
-                Font = UIFont.SystemFontOfSize(10),// Theme.Font.Semibold(10),
-                TextColor = UIColor.Black
+                Console.WriteLine("cell selected event in view controller {0}", item.Symbol);
             };
-            Add(label);
-            Console.WriteLine(label.Center);
         }
 
         public override void DidRotate(UIInterfaceOrientation fromInterfaceOrientation)

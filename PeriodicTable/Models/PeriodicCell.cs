@@ -6,7 +6,7 @@ using MonoTouch.Foundation;
 namespace PeriodicTable
 {
     [Register("PeriodicCell")]
-    public class PeriodicCell : UIView
+    public class PeriodicCell : UIButton// UIView
     {
         protected PTLabel lblAtomicNumber, lblSymbol, lblName;
 
@@ -18,14 +18,13 @@ namespace PeriodicTable
             : base(frame)
         {
             this.Element = element;
-
             this.BackgroundColor = CellBackgroundColor;
 
             lblAtomicNumber = new PTLabel()
             {
                 Text = this.Element.AtomicNumber.ToString(),
                 TextColor = UIColor.White,
-                BackgroundColor = this.BackgroundColor
+                BackgroundColor = UIColor.Clear
             };
 
             lblSymbol = new PTLabel()
@@ -56,8 +55,31 @@ namespace PeriodicTable
             Add(lblAtomicNumber);
             Add(lblName);
 //            Add(lblWeight);
+
+            this.TouchDragEnter += (object sender, EventArgs e) => {
+                HighlightCell();
+            };
+
+            this.TouchDown += (object sender, EventArgs e) => {
+                HighlightCell();
+            };
+            this.TouchDragExit += (object sender, EventArgs e) => {
+                UnhighlightCell();
+            };
+            this.TouchUpInside += (object sender, EventArgs e) => {
+                UnhighlightCell();
+            };
         }
 
+        public void HighlightCell()
+        {
+            lblSymbol.BackgroundColor = BackgroundColor.Lighten(2);
+        }
+
+        public void UnhighlightCell()
+        {
+            lblSymbol.BackgroundColor = BackgroundColor;
+        }
 
         public override void LayoutSubviews()
         {

@@ -15,6 +15,8 @@ namespace PeriodicTable
 
         List<PeriodicCellPlaceholder> PlaceholderCells;
 
+        public Action<Element> CellSelected;
+
         const int CellMargin = 2;
 
         public PeriodicTable(RectangleF frame, List<Element> elements)
@@ -26,6 +28,11 @@ namespace PeriodicTable
             Elements.ForEach(item =>
             {
                 var cell = new PeriodicCell(RectangleF.Empty, item);
+                cell.TouchUpInside += (sender, e) => {
+                    if (CellSelected != null)
+                        CellSelected(item);
+                    Console.WriteLine("touched {0}", item.Symbol);
+                };
                 Add(cell);
                 Cells.Add(cell);
             });
@@ -51,6 +58,7 @@ namespace PeriodicTable
             });
             Add(cellActPlaceholder);
             PlaceholderCells.Add(cellActPlaceholder);
+
         }
 
 

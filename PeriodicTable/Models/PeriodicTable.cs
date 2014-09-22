@@ -15,7 +15,7 @@ namespace PeriodicTable
 
         List<PeriodicCellPlaceholder> PlaceholderCells;
 
-        public Action<Element> CellSelected;
+        public Action<Element, RectangleF> CellSelected;
 
         const int CellMargin = 2;
 
@@ -30,8 +30,7 @@ namespace PeriodicTable
                 var cell = new PeriodicCell(RectangleF.Empty, item);
                 cell.TouchUpInside += (sender, e) => {
                     if (CellSelected != null)
-                        CellSelected(item);
-                    Console.WriteLine("touched {0}", item.Symbol);
+                        CellSelected(item, cell.Frame);
                 };
                 Add(cell);
                 Cells.Add(cell);

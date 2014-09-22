@@ -6,7 +6,7 @@ using MonoTouch.Foundation;
 namespace PeriodicTable
 {
     [Register("PeriodicCell")]
-    public class PeriodicCell : UIButton// UIView
+    public class PeriodicCell : UIButton
     {
         protected PTLabel lblAtomicNumber, lblSymbol, lblName;
 
@@ -95,10 +95,8 @@ namespace PeriodicTable
             textFontSize = textFontSize % 2 == 0 ? textFontSize : textFontSize - 1;
             var font = Theme.Font.Semibold((float)textFontSize);
 
-            //var heightLblName = ((Frame.Height - lblSymbol.Font.LineHeight - lblSymbol.Font.Descender) / 2);
             var heightLblName = Math.Floor(Frame.Height / 3);
             heightLblName = heightLblName % 2 == 0 ? heightLblName : heightLblName - 1;
-            //var yLblName = heightLblName + lblSymbol.Font.LineHeight + lblSymbol.Font.Descender;
             var yLblName = Frame.Height - heightLblName;
             lblName.Frame = new RectangleF(0, (float)yLblName, Frame.Width, (float)heightLblName);
             lblName.Font = font;
@@ -145,90 +143,6 @@ namespace PeriodicTable
                     return UIColor.Black;
             }
         }
-
-//        public override void Draw(System.Drawing.RectangleF rect)
-//        {
-//            base.Draw(rect);
-//
-//            //// General Declarations
-//            var context = UIGraphics.GetCurrentContext();
-//
-//            //// Color Declarations
-//            var color = UIColor.FromRGBA(1.000f, 1.000f, 1.000f, 1.000f);
-//
-//            //// Shadow Declarations
-//            var shadow = UIColor.Black.ColorWithAlpha(0.2f).CGColor;
-//            var shadowOffset = new SizeF(1.1f, 1.1f);
-//            var shadowBlurRadius = 0.0f;
-//
-//            //// Rectangle Drawing
-//            var rectanglePath = UIBezierPath.FromRect(new RectangleF(63.0f, 31.0f, 54.0f, 54.0f));
-//            color.SetStroke();
-//            rectanglePath.LineWidth = 1.0f;
-//            rectanglePath.Stroke();
-//
-//
-//            //// Symbol Drawing
-//            RectangleF textRect = new RectangleF(63.0f, 45.0f, 59.0f, 22.0f);
-//            {
-//                var textContent = "He";
-//                color.SetFill();
-//                var textInset = RectangleF.Inflate(textRect, -4.0f, 0.0f);
-//                var textFont = UIFont.FromName("HelveticaNeue-Light", 22.0f);
-//                textInset.Offset(0.0f, (textInset.Height - new NSString(textContent).StringSize(textFont, textInset.Size).Height) / 2.0f);
-//                new NSString(textContent).DrawString(textInset, textFont, UILineBreakMode.WordWrap, UITextAlignment.Left);
-//            }
-//
-//
-//            //// AtomicNumber Drawing
-//            RectangleF atomicNumberRect = new RectangleF(63.0f, 31.0f, 50.0f, 14.0f);
-//            {
-//                var textContent = "2";
-//                context.SaveState();
-//                context.SetShadowWithColor(shadowOffset, shadowBlurRadius, shadow);
-//                color.SetFill();
-//                var atomicNumberInset = RectangleF.Inflate(atomicNumberRect, -4.0f, 0.0f);
-//                var atomicNumberFont = UIFont.FromName("HelveticaNeue-Light", UIFont.SmallSystemFontSize);
-//                atomicNumberInset.Offset(0.0f, (atomicNumberInset.Height - new NSString(textContent).StringSize(atomicNumberFont, atomicNumberInset.Size).Height) / 2.0f);
-//                new NSString(textContent).DrawString(atomicNumberInset, atomicNumberFont, UILineBreakMode.WordWrap, UITextAlignment.Left);
-//                context.RestoreState();
-//
-//            }
-//
-//
-//            //// Weight Drawing
-//            RectangleF weightRect = new RectangleF(63.0f, 73.0f, 54.0f, 12.0f);
-//            {
-//                var textContent = "4.0026";
-//                context.SaveState();
-//                context.SetShadowWithColor(shadowOffset, shadowBlurRadius, shadow);
-//                color.SetFill();
-//                var weightInset = RectangleF.Inflate(weightRect, -4.0f, 0.0f);
-//                var weightFont = UIFont.FromName("HelveticaNeue-Light", UIFont.SmallSystemFontSize);
-//                weightInset.Offset(0.0f, (weightInset.Height - new NSString(textContent).StringSize(weightFont, weightInset.Size).Height) / 2.0f);
-//                new NSString(textContent).DrawString(weightInset, weightFont, UILineBreakMode.WordWrap, UITextAlignment.Left);
-//                context.RestoreState();
-//
-//            }
-//
-//
-//            //// Name Drawing
-//            RectangleF nameRect = new RectangleF(67.0f, 61.0f, 50.0f, 12.0f);
-//            {
-//                var textContent = "Helium";
-//                context.SaveState();
-//                context.SetShadowWithColor(shadowOffset, shadowBlurRadius, shadow);
-//                color.SetFill();
-//                var nameFont = UIFont.FromName("HelveticaNeue-Light", UIFont.SmallSystemFontSize);
-//                nameRect.Offset(0.0f, (nameRect.Height - new NSString(textContent).StringSize(nameFont, nameRect.Size).Height) / 2.0f);
-//                new NSString(textContent).DrawString(nameRect, nameFont, UILineBreakMode.WordWrap, UITextAlignment.Left);
-//                context.RestoreState();
-//
-//            }
-//
-//        }
-
-
     }
 }
 

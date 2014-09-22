@@ -126,6 +126,7 @@
     <Compile Include="ViewControllers\PeriodicTableViewController.cs" />
     <Compile Include="Theme.cs" />
     <Compile Include="Models\PeriodicCellPlaceholder.cs" />
+    <Compile Include="Models\ElementDetailView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>

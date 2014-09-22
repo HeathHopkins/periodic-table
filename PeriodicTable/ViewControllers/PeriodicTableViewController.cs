@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using MonoTouch.CoreGraphics;
 
 namespace PeriodicTable
 {
@@ -11,7 +12,7 @@ namespace PeriodicTable
     {
         PeriodicTable PeriodicTable;
 
-
+        ElementDetailView detailsView;
 
         public PeriodicTableViewController()
             : base()
@@ -31,11 +32,51 @@ namespace PeriodicTable
             this.PeriodicTable.AutoresizingMask = View.AutoresizingMask;
             Add(this.PeriodicTable);
 
-
-            this.PeriodicTable.CellSelected += (Element item) =>
+            this.PeriodicTable.CellSelected += (Element item, RectangleF cellFrame) =>
             {
                 Console.WriteLine("cell selected event in view controller {0}", item.Symbol);
+                ShowDetails(item, cellFrame);
+                //var transform = CGAffineTransform..MakeScale(scale,scale);
             };
+
+            detailsView = new ElementDetailView(View.Bounds, this)
+            {
+                AutoresizingMask = View.AutoresizingMask,
+                Hidden = true,
+                Alpha = 0
+            };
+            Add(detailsView);
+        }
+
+        public void ShowDetails(Element element, RectangleF cellFrame)
+        {
+            cellFrame.Offset(PeriodicTable.Frame.Location);
+            detailsView.CellFrame = cellFrame;
+            detailsView.Frame = cellFrame;
+            detailsView.BackgroundColor = PeriodicCell.GetBackgroundColor(element.GroupName);
+            UIView.Animate(1.2, 0, UIViewAnimationOptions.CurveEaseInOut, 
+                () => 
+                {
+                    detailsView.Hidden = false;
+                    detailsView.Alpha = 1;
+                    detailsView.Frame = this.View.Bounds;
+                },
+                () => { detailsView.SetNeedsLayout(); }
+            );
+        }
+
+        public void HideDetails(RectangleF cellFrame)
+        {
+
+            UIView.Animate(1.2, 0, UIViewAnimationOptions.CurveEaseInOut, 
+                () => 
+            {
+                detailsView.Frame = cellFrame;
+                detailsView.Alpha = 0;
+
+            },
+                () => { detailsView.Hidden = true; }
+            );
         }
 
         public override void DidRotate(UIInterfaceOrientation fromInterfaceOrientation)
